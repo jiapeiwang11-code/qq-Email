@@ -171,6 +171,17 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+   - id: "unite-ai"
+      name: "Unite.AI"
+      url: "https://www.unite.ai/feed/"
+
+  - id: "venturebeat"
+     name: "VentureBeat"
+     url: "http://venturebeat.com/feed/"
+
+  - id: "the-verge"
+    name: "The Verge"
+    url: "http://www.theverge.com/rss/full.xml"
 
     # 自定义源示例
     # - id: "custom-feed"
