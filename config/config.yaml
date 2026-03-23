@@ -174,7 +174,7 @@ rss:
 
     - id: "youtube-openai"
       name: "YouTube OpenAI"
-      url: "https://www.youtube.com/feeds/videos.xml?channel_id=YOUR_CHANNEL_ID"
+      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCP96CNoU29ipWoT3S4_29DQ"
       enabled: true
       max_age_days: 7
       max_items: 20
@@ -345,7 +345,7 @@ display:
   # 两者共享此处的平台/RSS 配置，但开关互相独立（可只开 AI 分析、不推送展示）
   standalone:
     platforms: ["zhihu", "wallstreetcn-hot"]     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
-    rss_feeds: ["youtube-openai", "x-openai", "tiktok-openai"]  # RSS 源 ID 列表（如 ["hacker-news"]）
+    rss_feeds: ["youtube-openai", "x-openai", "tiktok-openai","hacker-news",yahoo-finance]  # RSS 源 ID 列表（如 ["hacker-news"]）
     max_items: 20                     # 每个源最多展示条数（0=不限制）
 
 
