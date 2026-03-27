@@ -176,12 +176,12 @@ rss:
       name: "YouTube OpenAI"
       url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCP96CNoU29ipWoT3S4_29DQ"
       enabled: true
-      max_age_days: 7
+      max_age_days: 3
       max_items: 20
 
     - id: "x-openai"
-      name: "X OpenAI"
-      url: "YOUR_X_RSS_URL"
+      name: "X 马斯克"
+      url: "https://rsshub.app/twitter/user/elonmusk"
       enabled: true
       max_age_days: 3
       max_items: 20
