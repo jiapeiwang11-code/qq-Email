@@ -379,3 +379,185 @@
 
 /机器人产业链|人形机器人产业链|减速器|伺服|传感器|丝杠|控制器|灵巧手|机器视觉/ => 机器人产业链
 
+
+# ═══════════════════════════════════════════════════════════════
+#                         国家与地区
+# ═══════════════════════════════════════════════════════════════
+
+
+[中国]
+/国产|domestic|made in china/i
+/中国|china|chinese/i
+
+[东亚]
+/日本|japan|japanese/i
+/朝鲜|north korea|dprk/i
+/韩国|south korea|korea/i
+
+[北美]
+/美国|\bus\b|\busa\b|america|american/i
+/加拿大|canada|canadian/i
+
+[西欧]
+/法国|france|french/i
+/英国|\buk\b|britain|british|united kingdom/i
+
+/俄罗斯|俄国|russia|russian/i => 俄罗斯
+
+/印度|india|indian/i
+
+
+# ═══════════════════════════════════════════════════════════════
+#                        科技领域
+# ═══════════════════════════════════════════════════════════════
+
+[AI 相关]
+/\bai\b/i => AI
+/人工智能|artificial intelligence|machine learning/i
+
+[芯片]
+/芯片|chip|chips|microchip/i
+/光刻机|lithography|\beuv\b|\basml\b/i
+/半导体|semiconductor|semiconductors/i
+
+/水电|雅鲁藏布江|hydropower|hydroelectric/i => 水电
+/光伏|太阳能|photovoltaic|solar|solar panel/i => 光伏
+/核能|nuclear|nuclear energy/i
+/能源|energy/i
+
+/自动驾驶|无人驾驶|智驾|autonomous driving|self-driving|autopilot/i => 自动驾驶
+
+/机器人|\brobot\b|\brobots\b|robotics/i
+/机械狗|四足|robotic dog|quadruped robot/i => 机器狗
+/具身智能|embodied ai|embodied intelligence/i
+
+/月球|登月|火星|宇宙|飞船|航天|空间站|卫星|moon|lunar|mars|space|spacecraft|aerospace|space station|satellite/i => 航天
+
+# 前沿科技
+/量子|quantum/i
+/脑机|brain-computer interface|\bbci\b|neuralink/i
+/基因|gene|genetic|genomics|\bcrispr\b/i
+
+# 产业政策
+/生产力|productivity/i
+
+# ═══════════════════════════════════════════════════════════════
+#                      机器人细分领域
+# ═══════════════════════════════════════════════════════════════
+
+/人形机器人|具身智能|仿生机器人|humanoid|embodied ai|humanoid robot|bionic robot/i => 人形机器人
+
+
+/人形机器人|服务机器人|工业机器人|医疗机器人|物流机器人|家庭机器人|机器人产品|机器人|\brobot\b|robotics/i => 机器人新品发布
++/发布|release|launch|announce|unveil|debut/i
+
+/人形机器人|具身智能|机器人产品|机器人公司|机器人|\brobot\b|robotics/i => 机器人量产
++/量产|mass production|produce/i
+
+
+/人形机器人|工业机器人|服务机器人|机器人产品|机器人公司|\brobot\b|robotics/i => 机器人交付
++/交付|deliver|delivery|shipment/i
+
+
+/人形机器人|工业机器人|服务机器人|机器人公司|\brobot\b|robotics/i => 机器人订单
++/订单|order|contract/i
+
+
+/工业机器人|协作机器人|机械臂|机器人工作站|自动化产线|机器人产线|\brobot\b|robotic arm|industrial robot/i => 工业机器人
++/工厂|factory|plant|manufacturing|industrial/i
+
+
+/协作机器人|\bcobot\b|机械臂|robotic arm/i => 协作机器人
++/工业|industrial|industry/i
+
+/服务机器人|商用机器人|迎宾机器人|导览机器人|酒店机器人|餐饮机器人|清洁机器人|配送机器人|\brobot\b|service robot/i => 服务机器人
++/机器人|\brobot\b/i
+
+/家庭机器人|家用机器人|陪伴机器人|扫地机器人|割草机器人|宠物机器人|教育机器人|\brobot\b|home robot|cleaning robot/i => 家用机器人
++/机器人|\brobot\b/i
+
+/医疗机器人|手术机器人|康复机器人|护理机器人|外骨骼机器人|\brobot\b|medical robot|surgical robot|exoskeleton/i => 医疗机器人
++/医疗|medical|surgery|healthcare|rehabilitation/i
+
+/物流机器人|仓储机器人|\bamr\b|\bagv\b|搬运机器人|拣选机器人|分拣机器人|配送机器人|\brobot\b|logistics robot|warehouse robot/i => 物流仓储机器人
++/机器人|\brobot\b/i
+
+/巡检机器人|安防机器人|矿山机器人|农业机器人|水下机器人|无人配送|无人叉车|无人巡检|特种机器人|\brobot\b|inspection robot|security robot|underwater robot|unmanned forklift/i => 特种机器人
+
+/机器视觉|3D视觉|深度视觉|视觉识别|视觉传感器|\brobot\b|machine vision|3d vision|computer vision|vision sensor/i => 机器人视觉
++/机器人|\brobot\b/i
+
+/灵巧手|机械手|夹爪|末端执行器|电子皮肤|触觉传感器|dexterous hand|robotic hand|gripper|end effector|electronic skin|tactile sensor/i => 灵巧手末端执行器
++/机器人|\brobot\b/i
+
+/机器人关节|关节模组|伺服电机|无框力矩电机|空心杯电机|驱动器|\brobot\b|robot joint|joint module|servo motor|coreless motor|actuator/i => 机器人关节驱动
++/机器人|\brobot\b/i
+
+
+/减速器|谐波减速器|RV减速器|滚柱丝杠|行星滚柱丝杠|丝杠|轴承|\brobot\b|reducer|harmonic drive|rv reducer|roller screw|bearings/i => 机器人传动部件
++/机器人|\brobot\b/i
+
+
+/机器人控制器|运动控制|运动控制器|控制系统|控制算法|\brobot\b|robot controller|motion control|control system|control algorithm/i => 机器人控制系统
++/机器人|\brobot\b/i
+
+
+/力矩传感器|六维力传感器|编码器|\bimu\b|激光雷达|毫米波雷达|触觉传感器|\brobot\b|torque sensor|force sensor|encoder|lidar|radar/i => 机器人传感器
++/机器人|\brobot\b/i
+
+
+/机器人电池|电池包|续航|快充|\brobot\b|robot battery|battery pack|endurance|fast charging/i => 机器人供电续航
++/机器人|\brobot\b/i
+
+
+/具身模型|世界模型|机器人模型|操作模型|端到端|模仿学习|强化学习|\bvla\b|机器人智能体|embodied model|world model|end-to-end|imitation learning|reinforcement learning|robot agent/i => 机器人AI模型
++/机器人|\brobot\b/i
+
+
+
+/\bros\b|\bros2\b|运动规划|路径规划|\bslam\b|导航算法|控制算法|motion planning|path planning|navigation/i => 机器人软件算法
++/机器人|\brobot\b/i
+
+
+/人形机器人|机器人公司|机器人产品|机器人|\brobot\b|robotics/i => 机器人融资
++/融资|funding|fundraising|investment|series a|series b/i
+
+
+
+/机器人概念股|人形机器人概念|机器人板块|减速器概念|机器视觉概念|\brobot\b|robotics stock|robotics sector/i => 机器人概念股
++/机器人|\brobot\b/i
+
+/机器人|人形机器人|具身智能|智能制造|\brobot\b|intelligent manufacturing/i => 机器人政策
++/政策|policy|regulation|guideline/i
+!/征文|call for papers/i
+
+
+/机器人|人形机器人|工业机器人|\brobot\b|robotics/i => 机器人标准
++/标准|standard|standardization/i
+
+
+/机器人大会|机器人展|世界机器人大会|工博会|自动化展|\bces\b|\brobot\b|robotics conference|robotics exhibition|world robot conference|\bicra\b|\biros\b/i => 机器人展会大会
++/机器人|\brobot\b/i
+
+
+/机器人比赛|机器人大赛|机器人马拉松|机器人格斗|机器人足球|人形机器人|\brobot\b|robot competition|robocup|robot combat/i => 机器人比赛演示
++/机器人|\brobot\b/i
+
+
+/人形机器人|机器人|机器人公司|\brobot\b|robotics/i => 机器人出海
++/出海|overseas|global market|expansion/i
+
+/机器人|机器人公司|\brobot\b|robotics/i => 机器人合作签约
++/合作|partnership|collaboration|sign|agreement/i
+
+
+
+/宇树|unitree|优必选|ubtech|傅利叶|fourier|智元|zhiyuan|达闼|cloudminds|乐聚|leju|云深处|deep robotics|越疆|dobot|节卡|jaka|遨博|aubo|新松|siasun|埃斯顿|estun|埃夫特|efort|汇川技术|inovance|绿的谐波|中大力德|鸣志电器|禾川科技|柯力传感|步科股份/i => 国产机器人公司
++/机器人|\brobot\b/i
+
+/tesla|optimus|figure|figure ai|boston dynamics|atlas|spot|agility robotics|digit|\b1x\b|apptronik|sanctuary ai|\babb\b|fanuc|发那科|安川|yaskawa|kuka|库卡|universal robots|\bur\b/i => 海外机器人公司
+
+
+/tesla|特斯拉|optimus|\brobot\b/i => 特斯拉机器人
+
+/机器人产业链|人形机器人产业链|减速器|伺服|传感器|丝杠|控制器|灵巧手|机器视觉|robotics supply chain|servo|controller/i => 机器人产业链
